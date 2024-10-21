@@ -1,0 +1,10 @@
+### Zusammenfassung
+*In dieser Stunde werden Nachfrageänderungen durch die Nachfragekurve erklärt. Außerdem werden Begriffe wie Inferior, Komplementärgut und Elastizität erklärt. Die ganze Stunde ist sehr Frontalunterrichtlastig*
+
+### Verlaufsplan
+
+| Zeit | Phase       | Inhalt                                                                                                                                                                                                                                                                                    | Sozial- / Aktionsform | Material        |
+| ---- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | --------------- |
+| 5    | Einstieg    | - Artikel, Nachfrage steigt <br>- Frage: Was passiert dann?                                                                                                                                                                                                                               | Plenum                | Zeitungsartikel |
+| 25   | Erarbeitung | Aufschrieb:<br>- Nachfragegerade erklären (Preis-Mengen-Kombinationen, Preisanstieg) <br>- Gute Nachrichten für Firma, Nachfragekurve nach rechts <br>- Schlechte Nachrichten, Nachfragekurve nach links<br>*Verschiedene Preis-Mengen-Kombinationen werden in den Szenarien dargestellt* | Plenum, Mitschreiben  |                 |
+| 70   | Erarbeitung | Komplementärgüter, Substitutionsgüter, etc                                                                                                                                                                                                                                                                                          |                       |                 |
