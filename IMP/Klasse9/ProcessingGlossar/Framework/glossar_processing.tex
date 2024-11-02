@@ -1,0 +1,274 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\geometry{a4paper, margin=2cm}
+
+\usepackage{inconsolata}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\usepackage{color}
+
+% Solarized Farben definieren
+\definecolor{solarBase03}{rgb}{0.0, 0.11, 0.16}
+\definecolor{solarYellow}{rgb}{0.93, 0.71, 0.0}
+\definecolor{solarRed}{rgb}{0.86, 0.26, 0.18}
+\definecolor{solarGreen}{rgb}{0.18, 0.55, 0.34}
+\definecolor{solarBlue}{rgb}{0.0, 0.39, 0.51}
+\definecolor{solarGray}{rgb}{0.58, 0.58, 0.58}
+
+% lstset für Solarized
+\lstset{
+  language=Java,
+  backgroundcolor=\color{solarBase03},
+  basicstyle=\ttfamily\color{solarGray},
+  keywordstyle=\color{solarBlue}\bfseries,
+  commentstyle=\color{solarGreen}\itshape,
+  stringstyle=\color{solarRed},
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  moredelim=[il][\textcolor{solarGray}]{$$},
+  moredelim=[is][\textcolor{solarGray}]{\%\%}{\%\%},
+  frame=single,
+  rulecolor=\color{solarGray},
+  numbers=left,
+  numberstyle=\tiny\color{solarGray},
+  stepnumber=1,
+  numbersep=5pt
+}
+
+\begin{document}
+
+\title{Glossar der grundlegenden Processing-Funktionen}
+\author{}
+\date{}
+\maketitle
+
+\section*{Grundlegende Struktur-Funktionen}
+
+\begin{longtable}{|p{0.28\textwidth}|p{0.28\textwidth}|p{0.36\textwidth}|}
+\hline
+\textbf{Code} & \textbf{Parameter} & \textbf{Erklärung} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Code} & \textbf{Parameter} & \textbf{Erklärung} \\
+\hline
+\endhead
+
+\lstinline|void setup()| & & Wird einmal zu Beginn des Programms ausgeführt. Hier werden Anfangseinstellungen vorgenommen, z.B. \lstinline|size()| oder \lstinline|background()|. \\
+\hline
+
+\lstinline|void draw()| & & Wird nach \lstinline|void setup()| fortlaufend ausgeführt. Hier kommt der Hauptcode für Zeichnungen und Animationen hin. \\
+\hline
+
+\lstinline|size(int width, int height)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{int width}: \textit{Breite in Pixeln} \\
+\texttt{int height}: \textit{Höhe in Pixeln}
+\end{tabular}
+& Legt die Größe des Zeichenfensters fest. \\
+\hline
+
+\lstinline|frameRate(float fps)| & 
+\texttt{float fps}: \textit{Anzahl der Frames pro Sekunde} & Legt die Anzahl der Bilder pro Sekunde fest. \\
+\hline
+
+
+\end{longtable}
+
+\section*{Farb- und Zeichenstil-Funktionen}
+
+\begin{longtable}{|p{0.28\textwidth}|p{0.28\textwidth}|p{0.36\textwidth}|}
+\hline
+\textbf{Code} & \textbf{Parameter} & \textbf{Erklärung} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Code} & \textbf{Parameter} & \textbf{Erklärung} \\
+\hline
+\endhead
+
+\lstinline|background(int value)| & 
+\texttt{int value}: \textit{Grauwert (0–255)} & Setzt die Hintergrundfarbe mit Grauwert. \\
+\hline
+
+\lstinline|background(int r, int g, int b)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{int r}: \textit{Rot (0–255)} \\
+\texttt{int g}: \textit{Grün (0–255)} \\
+\texttt{int b}: \textit{Blau (0–255)}
+\end{tabular}
+& Setzt die Hintergrundfarbe mit RGB-Werten. \\
+\hline
+
+\lstinline|fill(int value)| & 
+\texttt{int value}: \textit{Grauwert (0–255)} & Legt die Füllfarbe für Formen mit Grauwert fest. Gilt, bis eine neue Farbe gesetzt wird.\\
+\hline
+
+\lstinline|fill(int r, int g, int b)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{int r}: \textit{Rot (0–255)} \\
+\texttt{int g}: \textit{Grün (0–255)} \\
+\texttt{int b}: \textit{Blau (0–255)}
+\end{tabular}
+& Legt die Füllfarbe für Formen mit RGB-Werten fest. Gilt, bis eine neue Farbe gesetzt wird.\\
+\hline
+
+\lstinline|stroke(int value)| & 
+\texttt{int value}: \textit{Grauwert (0–255)} & Legt die Linienfarbe mit Grauwert fest. Gilt, bis eine neue Farbe gesetzt wird.\\
+\hline
+
+\lstinline|stroke(int r, int g, int b)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{int r}: \textit{Rot (0–255)} \\
+\texttt{int g}: \textit{Grün (0–255)} \\
+\texttt{int b}: \textit{Blau (0–255)}
+\end{tabular}
+& Legt die Linienfarbe mit RGB-Werten fest. Gilt, bis eine neue Farbe gesetzt wird.\\
+\hline
+
+\lstinline|strokeWeight(float weight)| & 
+\texttt{float weight}: \textit{Linienstärke in Pixeln} & Legt die Dicke der Linien fest. Gilt, bis eine neue Dicke gesetzt wird.\\
+\hline
+
+\lstinline|noStroke()| & & Deaktiviert das Zeichnen von Linien (keine Konturen). Gilt, bis ein Stroke gesetzt wird.\\
+\hline
+
+\lstinline|noFill()| & & Deaktiviert das Füllen von Formen.  Gilt, bis eine neue Farbe gesetzt wird. \\
+\hline
+
+
+\end{longtable}
+
+% Wiederhole diesen Vorgang für alle weiteren Tabellen...
+
+\section*{Formen zeichnen}
+
+\begin{longtable}{|p{0.28\textwidth}|p{0.28\textwidth}|p{0.36\textwidth}|}
+\hline
+\textbf{Code} & \textbf{Parameter} & \textbf{Erklärung} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Code} & \textbf{Parameter} & \textbf{Erklärung} \\
+\hline
+\endhead
+
+\lstinline|point(float x, float y)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x}: \textit{X-Position} \\
+\texttt{float y}: \textit{Y-Position}
+\end{tabular}
+& Zeichnet einen Punkt an der Position \texttt{x}, \texttt{y}. \\
+\hline
+
+\lstinline|line(float x1, float y1, float x2, float y2)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x1}: \textit{Start-X} \\
+\texttt{float y1}: \textit{Start-Y} \\
+\texttt{float x2}: \textit{Ende-X} \\
+\texttt{float y2}: \textit{Ende-Y}
+\end{tabular}
+& Zeichnet eine Linie von \texttt{x1}, \texttt{y1} nach \texttt{x2}, \texttt{y2}. \\
+\hline
+
+% Füge \hline nach jeder Tabellenzeile hinzu
+\lstinline|rect(float x, float y, float w, float h)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x}: \textit{X-Position} \\
+\texttt{float y}: \textit{Y-Position} \\
+\texttt{float w}: \textit{Breite} \\
+\texttt{float h}: \textit{Höhe}
+\end{tabular}
+& Zeichnet ein Rechteck mit oberer linker Ecke bei \texttt{x}, \texttt{y}, Breite \texttt{w} und Höhe \texttt{h}. \\
+\hline
+
+\lstinline|square(float x, float y, float s)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x}: \textit{X-Position} \\
+\texttt{float y}: \textit{Y-Position} \\
+\texttt{float s}: \textit{Seitenlänge}
+\end{tabular}
+& Zeichnet ein Quadrat mit oberer linker Ecke bei \texttt{x}, \texttt{y} und Seitenlänge \texttt{s}. \\
+\hline
+
+\lstinline|ellipse(float x, float y, float w, float h)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x}: \textit{Zentrum X} \\
+\texttt{float y}: \textit{Zentrum Y} \\
+\texttt{float w}: \textit{Breite} \\
+\texttt{float h}: \textit{Höhe}
+\end{tabular}
+& Zeichnet eine Ellipse zentriert bei \texttt{x}, \texttt{y} mit Breite \texttt{w} und Höhe \texttt{h}. \\
+\hline
+
+\lstinline|circle(float x, float y, float d)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x}: \textit{Zentrum X} \\
+\texttt{float y}: \textit{Zentrum Y} \\
+\texttt{float d}: \textit{Durchmesser}
+\end{tabular}
+& Zeichnet einen Kreis zentriert bei \texttt{x}, \texttt{y} mit Durchmesser \texttt{d}. \\
+\hline
+
+\lstinline|triangle(float x1, float y1, float x2, float y2, float x3, float y3)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x1}: \textit{Punkt1 X} \\
+\texttt{float y1}: \textit{Punkt1 Y} \\
+\texttt{float x2}: \textit{Punkt2 X} \\
+\texttt{float y2}: \textit{Punkt2 Y} \\
+\texttt{float x3}: \textit{Punkt3 X} \\
+\texttt{float y3}: \textit{Punkt3 Y}
+\end{tabular}
+& Zeichnet ein Dreieck mit Eckpunkten bei den angegebenen Koordinaten. \\
+\hline
+
+\lstinline|quad(float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x1}: \textit{Punkt1 X} \\
+\texttt{float y1}: \textit{Punkt1 Y} \\
+\texttt{float x2}: \textit{Punkt2 X} \\
+\texttt{float y2}: \textit{Punkt2 Y} \\
+\texttt{float x3}: \textit{Punkt3 X} \\
+\texttt{float y3}: \textit{Punkt3 Y} \\
+\texttt{float x4}: \textit{Punkt4 X} \\
+\texttt{float y4}: \textit{Punkt4 Y}
+\end{tabular}
+& Zeichnet ein Viereck mit Eckpunkten bei den angegebenen Koordinaten. \\
+\hline
+
+\lstinline|arc(float x, float y, float w, float h, float start, float stop)| & 
+\begin{tabular}[t]{@{}l@{}}
+\texttt{float x}: \textit{Zentrum X} \\
+\texttt{float y}: \textit{Zentrum Y} \\
+\texttt{float w}: \textit{Breite} \\
+\texttt{float h}: \textit{Höhe} \\
+\texttt{float start}: \textit{Startwinkel} \\
+\texttt{float stop}: \textit{Endwinkel}
+\end{tabular}
+& Zeichnet einen Bogen zentriert bei \texttt{x}, \texttt{y} von Winkel \texttt{start} bis \texttt{stop} (in Radiant). \\
+\hline
+
+
+\end{longtable}
+
+% Wiederhole den Vorgang für die restlichen Tabellen
+
+\end{document}

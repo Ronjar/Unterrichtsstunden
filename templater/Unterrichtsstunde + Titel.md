@@ -34,13 +34,14 @@ const pdfsInFolder = allFiles.filter(f =>
 
 // Callout erstellen
 if (pdfsInFolder.length > 0) {
-    let calloutContent = '> [!abstract]- Arbeitsblätter\n';
+    let calloutContent = '> [!abstract] Arbeitsblätter\n';
     pdfsInFolder.forEach(f => {
-        calloutContent += `> - [${f.name}](${f.path})\n`;
+        calloutContent += `> - [[${f.path}|${f.name}]]\n`;
     });
+    console.log(calloutContent);
     dv.paragraph(calloutContent);
 } else {
-    dv.paragraph('> [!abstract]- Arbeitsblätter\n> *keine Arbeitsblätter vorhanden. Arbeitsblätter sind PDFs im selben Ordner, die mit AB beginnen*');
+    dv.paragraph('> [!abstract] Arbeitsblätter\n> *keine Arbeitsblätter vorhanden. Arbeitsblätter sind PDFs im selben Ordner, die mit AB beginnen*');
 }
 ```
 

@@ -1,0 +1,231 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{parskip}
+\geometry{a4paper, margin=2cm}
+
+\usepackage{inconsolata}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\usepackage{color}
+
+% Solarized Farben definieren
+\definecolor{solarBase03}{rgb}{0.0, 0.11, 0.16}
+\definecolor{solarYellow}{rgb}{0.93, 0.71, 0.0}
+\definecolor{solarRed}{rgb}{0.86, 0.26, 0.18}
+\definecolor{solarGreen}{rgb}{0.18, 0.55, 0.34}
+\definecolor{solarBlue}{rgb}{0.0, 0.39, 0.51}
+\definecolor{solarGray}{rgb}{0.58, 0.58, 0.58}
+\definecolor{solarLightGray}{rgb}{0.95, 0.95, 0.95} % Neue helle Hintergrundfarbe
+
+% lstset für Solarized
+\lstset{
+  language=Java,
+  backgroundcolor=\color{solarLightGray},
+  basicstyle=\ttfamily\color{solarGray},
+  keywordstyle=\color{solarBlue}\bfseries,
+  commentstyle=\color{solarGreen}\itshape,
+  stringstyle=\color{solarRed},
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  moredelim=[il][\textcolor{solarGray}]{$$},
+  moredelim=[is][\textcolor{solarGray}]{\%\%}{\%\%},
+  frame=single,
+  rulecolor=\color{solarGray},
+  numbers=left,
+  numberstyle=\tiny\color{solarGray},
+  stepnumber=1,
+  numbersep=5pt
+}
+
+\begin{document}
+
+\title{Grundlegende Variablentypen und Funktionen in Processing}
+\author{}
+\date{}
+\maketitle
+
+\section*{Variablentypen}
+
+In Processing gibt es verschiedene Variablentypen, die verwendet werden, um Daten zu speichern und zu manipulieren. Jeder Typ hat seinen eigenen Verwendungszweck und Speicherbedarf.
+
+\begin{longtable}{|p{0.3\textwidth}|p{0.3\textwidth}|p{0.35\textwidth}|}
+\hline
+\textbf{Typ} & \textbf{Name} & \textbf{Erklärung} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Typ} & \textbf{Name} & \textbf{Erklärung} \\
+\hline
+\endhead
+
+\texttt{int} & Ganzzahl & Speichert ganze Zahlen ohne Dezimalstellen. \\
+\hline
+
+\texttt{float} & Gleitkommazahl & Speichert Zahlen mit Dezimalstellen. \\
+\hline
+
+\texttt{double} & Doppelte Gleitkommazahl & Ähnlich wie \texttt{float}, jedoch mit doppelter Genauigkeit. \\
+\hline
+
+\texttt{char} & Zeichen & Speichert einzelne Zeichen, z.B. Buchstaben oder Symbole. \\
+\hline
+
+\texttt{boolean} & Wahrheitswert & Speichert \texttt{true} oder \texttt{false}. \\
+\hline
+
+\texttt{String} & Zeichenkette & Speichert Textinformationen, z.B. Wörter oder Sätze. \\
+\hline
+
+\texttt{color} & Farbe & Speichert Farbwerte, oft in RGB-Format. \\
+\hline
+
+\texttt{PVector} & Vektor & Speichert einen Vektor mit x-, y- und z-Koordinaten, nützlich für 2D- und 3D-Grafiken. \\
+\hline
+
+
+\end{longtable}
+
+\section*{Variablen deklarieren und initialisieren}
+
+Eine Variable wird \textbf{deklariert}, indem der Typ und der Name der Variable angegeben werden. Sie kann gleichzeitig \textbf{initialisiert} werden, indem ein Anfangswert zugewiesen wird.
+
+\begin{lstlisting}
+int alter = 25;
+float temperatur = 23.5;
+boolean istAktiv = true;
+String name = "Max Mustermann";
+color hintergrundFarbe = color(255, 0, 0); // Rot
+\end{lstlisting}
+
+\section*{Funktionen}
+
+Funktionen sind Blöcke von Code, die eine bestimmte Aufgabe ausführen. Sie helfen, den Code zu strukturieren, wiederverwendbar zu machen und die Lesbarkeit zu verbessern.
+
+\subsection*{Aufbau einer Funktion}
+
+Eine Funktion besteht aus einem Rückgabetyp, einem Namen und optionalen Parametern. Der Funktionskörper enthält den Code, der ausgeführt wird, wenn die Funktion aufgerufen wird.
+
+\begin{lstlisting}
+Rueckgabetyp Funktionsname(Parameterliste) {
+    // Funktionskoerper
+    // Code, der ausgefuehrt wird
+    return Wert; // Falls ein Wert zurueckgegeben wird
+}
+\end{lstlisting}
+
+\subsection*{Beispiel einer Funktion}
+
+Hier ist ein einfaches Beispiel einer Funktion, die zwei Ganzzahlen addiert und das Ergebnis zurückgibt.
+
+\begin{lstlisting}
+int addiere(int a, int b) {
+    int summe = a + b;
+    return summe;
+}
+\end{lstlisting}
+
+\subsection*{Funktionen aufrufen}
+
+Eine Funktion wird aufgerufen, indem ihr Name gefolgt von Klammern und den erforderlichen Argumenten verwendet wird.
+
+\begin{lstlisting}
+int ergebnis = addiere(5, 3); // ergebnis ist jetzt 8
+\end{lstlisting}
+
+\section*{Verschiedene Arten von Funktionen}
+
+\begin{longtable}{|p{0.25\textwidth}|p{0.25\textwidth}|p{0.35\textwidth}|}
+\hline
+\textbf{Art} & \textbf{Name} & \textbf{Erklärung} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{Art} & \textbf{Name} & \textbf{Erklärung} \\
+\hline
+\endhead
+
+\texttt{void} & Prozedur & Führt Aufgaben aus, gibt jedoch keinen Wert zurück. \\
+\hline
+
+\texttt{int}, \texttt{float}, etc. & Funktion mit Rückgabewert & Führt Aufgaben aus und gibt einen Wert des angegebenen Typs zurück. \\
+\hline
+
+\end{longtable}
+
+\section*{Eingebaute Funktionen in Processing}
+
+\begin{longtable}{|p{0.25\textwidth}|p{0.25\textwidth}|p{0.35\textwidth}|}
+    \hline
+    \textbf{Art} & \textbf{Name} & \textbf{Erklärung} \\
+    \hline
+    \endfirsthead
+
+\texttt{void setup()} & Setup-Funktion & Wird einmal zu Beginn des Programms ausgeführt, um Einstellungen vorzunehmen. \\
+\hline
+
+\texttt{void draw()} & Draw-Funktion & Wird kontinuierlich nach \texttt{setup()} aufgerufen, um Grafiken zu zeichnen oder Animationen zu erstellen. \\
+\hline
+
+
+\end{longtable}
+
+\section*{Parameter und Argumente}
+
+\begin{itemize}
+    \item \textbf{Parameter}: Variablen, die in der Funktionsdefinition angegeben sind und als Platzhalter für die Werte dienen, die an die Funktion übergeben werden.
+    \item \textbf{Argumente}: Die tatsächlichen Werte, die beim Aufruf der Funktion übergeben werden.
+\end{itemize}
+
+\subsection*{Beispiel mit Parametern und Argumenten}
+
+\begin{lstlisting}
+float berechneFlaeche(float breite, float hoehe) {
+    return breite * hoehe;
+}
+
+void setup() {
+    float flaeche = berechneFlaeche(5.0, 3.0); // flaeche ist jetzt 15.0
+}
+\end{lstlisting}
+
+\section*{Lokale und Globale Variablen}
+
+\begin{itemize}
+    \item \textbf{Lokale Variablen}: Innerhalb einer Funktion definiert und nur innerhalb dieser Funktion sichtbar.
+    \item \textbf{Globale Variablen}: Außerhalb aller Funktionen definiert und in allen Funktionen des Programms zugänglich.
+\end{itemize}
+
+\subsection*{Beispiel für lokale und globale Variablen}
+
+\begin{lstlisting}
+int globalZahl = 10; // Globale Variable
+
+void setup() {
+    int lokaleZahl = 5; // Lokale Variable
+    println("Globale Zahl: " + globalZahl);
+    println("Lokale Zahl: " + lokaleZahl);
+}
+
+void draw() {
+    println("Globale Zahl in draw: " + globalZahl);
+    // println("Lokale Zahl in draw: " + lokaleZahl); // Fehler: lokaleZahl ist hier nicht sichtbar
+}
+\end{lstlisting}
+
+\end{document}
