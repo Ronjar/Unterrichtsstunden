@@ -50,7 +50,9 @@ if (pdfsInFolder.length > 0) {
 
 ### Feedback
 > [!Success]- Das lief gut
-> -
+> - Apfelalgorithmus
+> - Selbst angefertigtes Flussdiagramm
 
 > [!Bug]- Verbesserungen
-> -
+> - Algorithmus in Worten besser vorbereiten
+> - Unterrichtsfluss besser gestalten (Themenübergänge)
