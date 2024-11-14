@@ -13,9 +13,18 @@
 | 20 Min | Sicherung     | Präsentation der Ergebnisse und Beantwortung der Leitfrage                                | Plenum                | iPad                                        |
 | 10 Min | Abschluss     | Diskussion: Warum brauchen wir Wettbewerb                                                 | Plenum                |                                             |
 
+<<<<<<< Updated upstream
 ### Erklärung 
 #### Einstieg
 - 338 Millionen € Strafzahlungen
+=======
+#### Ende der Stunde
+- Warum sind Kartelle schlecht?
+- Warum ist das attraktiv für die Hersteller
+- Warum tendiert der Markt im unregulierten immer zum Monopol
+
+### Erklärung des Materials und der Strategien
+>>>>>>> Stashed changes
 
 #### Erarbeitung 1
 

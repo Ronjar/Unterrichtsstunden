@@ -17,6 +17,9 @@
 - *Ausgangspunkt*: Apfel, Messer und Brettchen liegen auf dem Tisch, Lehrkraft steht daneben
 - So dumm wie möglich anstellen!
 
+#### Lieblingsrezept
+- Rezept mitbringen
+
 
 
 ```dataviewjs
