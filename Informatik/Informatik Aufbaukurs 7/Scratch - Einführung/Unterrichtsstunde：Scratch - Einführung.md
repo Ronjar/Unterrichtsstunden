@@ -1,14 +1,6 @@
 
 
 ### Zusammenfassung
-<<<<<<< Updated upstream
-**
-
-### Verlaufsplan
-| Zeit | Phase    | Inhalt | Sozial- / Aktionsform | Material |
-| ---- | -------- | ------ | --------------------- | -------- |
-|      | Einstieg |        | Plenum                |          |
-=======
 *Die Schülerinnen lernen den ersten Umgang mit Scratch und testen selbst Funktionalität aus*
 
 ### Verlaufsplan
@@ -18,7 +10,6 @@
 | 20   | Einstieg                | - Wofür brauchen wir das, was wir in der letzten Stunde gemacht haben?<br> - PC anschalten     | Plenum                  |                                       |
 | 80   | Erarbeitung             | - Arbeitsblatt mit immer wieder Sicherungsphasen                                               | Einzel- / Partnerarbeit | Arbeitsblatt (Ausfüllbar), über iServ | 
 | 90   | Sicherung               | - Fehlerhaftes Flussdiagramm zusammen anschauen, 2 Minuten nachdenken und Fehler finden        | Plenum / Einzeln        | Beamer, Flussdiagramm                 |
->>>>>>> Stashed changes
 
 
 
