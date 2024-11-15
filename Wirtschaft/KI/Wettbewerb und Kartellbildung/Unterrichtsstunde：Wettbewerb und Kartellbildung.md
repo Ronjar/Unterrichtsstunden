@@ -32,6 +32,9 @@
 ||- Weniger Innovation und schlechterer Service|
 
 #### 2. Tendiert der unregulierte Markt immer zu Monopolen? Wenn ja, warum?
+Nur bei Stunde 0 Szenario und Homo Oeconomicus
+
+Ansonsten ja, da eine Partei immer vorteile hat
 
 ### Zusätzliche Fragen
 - Fällt euch ein Markt ein, in dem solche Netzwerkeffekte auftreten?
