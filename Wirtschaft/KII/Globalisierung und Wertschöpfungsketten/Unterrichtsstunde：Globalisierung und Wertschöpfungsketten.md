@@ -8,13 +8,25 @@
 | Zeit | Phase                   | Inhalt                                                                                                                                                     | Sozial- / Aktionsform | Material     |
 | ---- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ------------ |
 | 7    | Einstieg                | - Mikrochips dabei, was ist das?<br> - Wofür braucht man das? <br> Wo kommt das her? (Vllt Flagge Taiwan als Tipp)                                         | Plenum                |              |
-| 15   | Einstieg                | - Intel Fabrikbau in Magdeburg verschoben? - TSMC Fabrikbau in Dresden?                                                                                    | Plenum                |              |
+| 15   | Einstieg                | - Intel Fabrikbau in Magdeburg verschoben? - TSMC Fabrikbau in Dresden?                                                                                    | Plenum                | [Intel](https://www.tagesschau.de/multimedia/video/video-1380904.html) [TSMC](https://www.youtube.com/watch?v=b8ryvcBkFIk)            |
 | 40   | Erarbeitung             | - Standortfaktoren in Deutschland, China, USA, Taiwan.<br> Warum siedeln sich Unternehmen in verschiedenen Ländern an?                                     | Gruppenarbeit         |              |
 | 45   | Sicherung               | - Sammeln, Vergleichen der Länder                                                                                                                          | Plenum                |              |
 | 50   | Erarbeitung             | - Wertschöpfungskette Halbleiter                                                                                                                           | Plenum                |              |
-| 80   | Erarbeitung / Sicherung | - Gestalte optimale Arbeitsbedingungen für ein Unternehmen, dass Halbleiter produziert. Gehe dabei auch auf Marktmacht, Marktform und Innovationspotenzial | Gruppenarbeit         | Arbeitsblatt |
+| 80   | Erarbeitung / Sicherung | - Gestalte optimale Standortbedingungen für ein Unternehmen / mehrere Unternehmen, dass Halbleiter produziert. Gehe dabei auch auf Marktmacht, Marktform und Innovationspotenzial | Gruppenarbeit         | Arbeitsblatt |
 
 
+### Standortfaktoren
+| Land        | Link                                                                                                                                   |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Taiwan      | https://www.dw.com/de/chip-supermacht-taiwan/a-64468545                                                                                |
+| China       | https://www.wiwo.de/unternehmen/industrie/umfrage-wieso-unternehmen-beim-standort-auf-china-statt-auf-deutschland-setzen/29344042.html |
+| Deutschland | https://www.bmwk.de/Redaktion/DE/Schlaglichter-der-Wirtschaftspolitik/2024/10/05-halbleiterindustrie.html                              |
+| USA         |                                                                                                                                        |
+
+
+### Erarbeitung 2 - Optimale Standortbedingungen
+- Gruppe 1: Optimale Standortbedingungen für ein Unternehmen in einem Staat
+- Gruppe 2: Optimale Standortbedingungen für Unternehmen in einer Gesellschaft in einem Staat
 
 
 ```dataviewjs
