@@ -47,6 +47,20 @@ Ansonsten ja, da eine Partei immer vorteile hat
 - 338 Millionen € Strafzahlungen
 
 
+### Sicherung 2
+
+| Bereich / Frage            | Kartellbildung                                                                                                                                                                                                                                                            | Fusionskontrolle                                                                                                                                                                                                                                                      | Missbrauchsaufsicht                                                                                                                                                                                                                                                           |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Erklärung des Bereichs** | - Illegale Absprachen zwischen Unternehmen zur Einschränkung des Wettbewerbs (Quasimonopol) sind fast immer verboten, Ausnahme: Fortschritt ohne Verbraucherbenachteiligung, etc.<br>- EU zuständig, wenn auch europäisches Recht Anwendung findet<br>- Bierbrauerkartell | - Prüfung von **Unternehmensfusionen** und -übernahmen, Verhinderung von **marktbeherrschenden Stellungen**.<br>- EU Kommission ab Gesamtumsatz aller Unternehmen 5 Mrd. €<br> - Umsatzschwellen gelten (Beispiel: beteiligte Unternehmen > 500 Mio. € weltweit)<br>- | - Überwachung von **marktbeherrschenden Unternehmen**. <br>- Verhinderung des Missbrauchs ihrer **Marktposition**.<br>- Voraussetzung: Marktbeherrschend (ab 40% Marktanteil, Zahl + Größe Wettbewerber, etc.)<br>- **Beispiele:** Digitalkonzerne, Energiepreisbremsen <br>- |
+| **Relevanz**               | - Verbraucher: Schutz vor **überhöhten Preisen** (Kartelle erhöhen Preise im Durchschnitt um 15%).<br>- Andere Unternehmen: Sicherung eines **fairen Wettbewerbs**.<br>- Förderung von **Innovation** und **Qualität**.                                                   | - Verhinderung von **Monopolen** und **Oligopolen**.- Schutz kleinerer Unternehmen vor der Übermacht großer Konzerne.- Erhalt der **Marktvielfalt** für Verbraucher.                                                                                                  | - Sicherstellung **fairer Marktbedingungen**.- Schutz von Wettbewerbern und Verbrauchern vor **Ausbeutung**.- Förderung von **Wettbewerb** und **Innovation**.                                                                                                                |
+
+
+### Ende: Google Chrome 
+Video: [SZ Google soll Chrome verkaufen](https://www.sueddeutsche.de/panorama/monopolstellung-muss-google-seinen-chrome-browser-verkaufen-li.3151334)
+Fragen, angenommen es wäre in Deutschland:
+- Sollte das BKA eingreifen, wenn ja, warum?
+- Aber ist doch für Nutzer:innen gut, ihr nutzt doch alle Google
+
 ### Ende der Stunde
 - Warum sind Kartelle schlecht?
 - Warum ist das attraktiv für die Hersteller
