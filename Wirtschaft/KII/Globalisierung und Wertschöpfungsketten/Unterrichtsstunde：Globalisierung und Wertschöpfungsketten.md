@@ -21,7 +21,7 @@
 | Taiwan      | https://www.dw.com/de/chip-supermacht-taiwan/a-64468545                                                                                |
 | China       | https://www.wiwo.de/unternehmen/industrie/umfrage-wieso-unternehmen-beim-standort-auf-china-statt-auf-deutschland-setzen/29344042.html |
 | Deutschland | https://www.bmwk.de/Redaktion/DE/Schlaglichter-der-Wirtschaftspolitik/2024/10/05-halbleiterindustrie.html                              |
-| USA         |                                                                                                                                        |
+| USA         | https://www.gtai.de/de/trade/usa-wirtschaft                                                                                                                                       |
 
 
 ### Erarbeitung 2 - Optimale Standortbedingungen
