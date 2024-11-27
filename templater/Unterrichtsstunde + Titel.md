@@ -3,9 +3,11 @@
 const previousTitle = tp.file.title;
 const newTitle = "Unterrichtsstunde：" + previousTitle;
 const newFolder = tp.file.folder(true) + "/" + previousTitle;
+const materialFolder = newFolder + "/Material";
 const newFile = newFolder + "/" + newTitle;
 
 await app.vault.createFolder(newFolder);
+await app.vault.createFolder(materialFolder);
 await tp.file.move(newFile);
 %>
 
