@@ -8,8 +8,8 @@
 | Zeit | Phase                      | Inhalt                                                                                                                                                                            | Sozial- / Aktionsform | Material                                                                                                                   |
 | ---- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | 7    | Einstieg I                 | - Mikrochips dabei, was ist das?<br> - Wofür braucht man das? <br> Wo kommt das her? (Vllt Flagge Taiwan als Tipp)                                                                | Plenum                |                                                                                                                            |
-| 10   | Einstieg II                | - Wertschöpfungskette Halbleiter                                                                                                                                                  | Plenum                |                                                                                                                            |
-| 15   | Einstieg III               | - Intel Fabrikbau in Magdeburg verschoben? - TSMC Fabrikbau in Dresden?                                                                                                           | Plenum                | [Intel](https://www.tagesschau.de/multimedia/video/video-1380904.html) [TSMC](https://www.youtube.com/watch?v=b8ryvcBkFIk) |
+| 10   | Einstieg II                | - Intel Fabrikbau in Magdeburg verschoben? - TSMC Fabrikbau in Dresden?                                                                                                           | Plenum                | [Intel](https://www.tagesschau.de/multimedia/video/video-1380904.html) [TSMC](https://www.youtube.com/watch?v=b8ryvcBkFIk) |
+| 15   | Einstieg III               | - Wertschöpfungskette Halbleiter                                                                                                                                                  | Plenum                |                                                                                                                            |
 | 45   | Erarbeitung I              | - Standortfaktoren in Deutschland, China, USA, Taiwan.<br> Warum siedeln sich Unternehmen in verschiedenen Ländern an?                                                            | Gruppenarbeit         |                                                                                                                            |
 | 50   | Sicherung II               | - Sammeln, Vergleichen der Länder                                                                                                                                                 | Plenum                |                                                                                                                            |
 | 80   | Erarbeitung / Sicherung II | - Gestalte optimale Standortbedingungen für ein Unternehmen / mehrere Unternehmen, dass Halbleiter produziert. Gehe dabei auch auf Marktmacht, Marktform und Innovationspotenzial | Gruppenarbeit         | Arbeitsblatt                                                                                                               |
@@ -22,11 +22,11 @@
 - Wofür braucht man die Chips?
 
 #### Einstieg II
-- Bild Wertschöpfungskette - So kam der Chip hier her
-
-#### Einstieg III
 - Warum baut Intel vielleicht doch nicht in Deutschland?
 - Warum würde Deutschland so viel in die Chipfabrik stecken?
+
+#### Einstieg III
+- Bild Wertschöpfungskette - So kam der Chip hier her
 
 = Leitfrage: Warum bauen Unternehmen in unterschiedlichen Ländern unterschiedliche Produkte
 
@@ -85,4 +85,6 @@ if (pdfsInFolder.length > 0) {
 > -
 
 > [!Bug]- Verbesserungen
-> -
+> - "Gestalte" braucht mehr Fragen
+> - Roter Faden, vorher nochmal durchgehen
+> - Gruppeneinteilung doch etwas strikter
