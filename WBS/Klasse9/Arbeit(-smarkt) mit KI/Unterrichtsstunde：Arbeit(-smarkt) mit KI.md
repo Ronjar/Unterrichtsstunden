@@ -9,11 +9,12 @@ Wie sicher sind unsere Jobs in Zeiten von ChatGPT?
 ### Verlaufsplan
 | Zeit | Phase         | Inhalt                                                              | Sozial- / Aktionsform    | Material                                    |
 | ---- | ------------- | ------------------------------------------------------------------- | ------------------------ | ------------------------------------------- |
-| 10   | Einstieg      | - Video schauen                                                     | Plenum                   | https://www.youtube.com/watch?v=DgM81DLEoAI |
+| 10   | Einstieg 1    | - Umfrage: ChatGPT                                                  |                          | https://forms.robingebert.com/s/cm463gsav000d7wtofwr4zs00                                            |
 | 35   | Erarbeitung 1 | - ChatGPT Fragen stellen                                            | Partner- / Gruppenarbeit | Präsentation                                |
 | 40   | Sicherung 1   | - Schülerinnen tragen Ergebnisse vor, gemeinsamer Aufschrieb        | Plenum                   | iPad                                        |
 | 50   | Erarbeitung 2 | - Wie sehen Schülerinnen die Zukunft?                               | Partnerarbeit            |                                             |
-| 55   | Sicherung 2   | - Schülerinnen tragen Ergebnisse vor, gemeinsamer Aufschrieb        | Plenum                   | iPad                                        | 
+| 55   | Sicherung 2   | - Schülerinnen tragen Ergebnisse vor, gemeinsamer Aufschrieb        | Plenum                   | iPad                                        |
+| 60   | Einstieg 2    | - Video schauen                                                     | Plenum                   | https://www.youtube.com/watch?v=DgM81DLEoAI |
 | 80   | Erarbeitung 3 | - Nimmt KI Arbeitsplätze weg?                                       | Einzel- / Partnerarbeit  |                                             |
 | 90   | Sicherung 3   | - Vorstellung der Ergebnisse<br> - Diskussion: wie sicher sind Jobs | Plenum                   |                                             |
 
@@ -32,6 +33,10 @@ Wie sicher sind unsere Jobs in Zeiten von ChatGPT?
 Wie seht ihr die Zukunft? Stimmt ihr Chat GPT zu?
 - Ja, weil
 - Nein, weil
+
+#### Einstieg 2
+- Fallen euch noch andere Jobs ein, die von einer KI erledigt werden können?
+- 
 
 #### Erarbeitung 3
 Heißt das jetzt, dass die Roboter/KI‘s irgendwann eure Arbeitsplätze wegnehmen?
