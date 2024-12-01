@@ -3,7 +3,7 @@ void setup() {
   background(255);
 
   // Beispiel, um das erste Cluster zu zeichnen
-  drawCircleCluster(250, 250, 100, 100);
+  drawCircleCluster(250, 250, 50, 100);
 
   // Beispiel, um das zweite, kleinere Cluster zu zeichnen
   drawCircleCluster(750, 250, 50, 20);
