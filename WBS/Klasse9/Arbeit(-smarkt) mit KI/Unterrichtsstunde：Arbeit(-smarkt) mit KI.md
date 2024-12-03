@@ -20,7 +20,8 @@ Wie sicher sind unsere Jobs in Zeiten von ChatGPT?
 
 
 #### Einstieg
-- Was ist der Unterschied zwischen diesem Video und dem Pflegekräftevideo von letzter Stunde?
+- Macht die Umfrage, wir schauen uns die Ergebnisse später an
+- Versucht, euch in Partnerarbeit zu erinnern, was genau die Aufgabe und der Nutzen der Pflegeroboter war
 - Google +13%, Microsoft +29% CO$_2$-Emissionen, KI ist das nächste große Ding.
 
 #### Erarbeitung 1

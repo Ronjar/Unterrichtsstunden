@@ -18,6 +18,10 @@
 - Wie kann ich jetzt eine Linie malen?
 - Wenn ich genau dasselbe öfters machen will (z.B. nach rechts gehen), was brauche ich? 
 
+### Flussdiagramm KatzeTaco
+- Katze muss Taco finden
+- Kästchen als Einheit nutzen
+
 
 ```dataviewjs
 // Ordner der aktuellen Datei abrufen
